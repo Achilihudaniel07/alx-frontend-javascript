@@ -1,1 +1,9 @@
-0x00-ES6_basic
+export default function getBudgetObject(income, gdp, capita) {
+  const budget = {
+    income,
+    gdp,
+    capita,
+  };
+
+  return budget;
+}
