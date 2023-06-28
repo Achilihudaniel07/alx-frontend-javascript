@@ -1,1 +1,3 @@
-0x01-ES6_promise
+export default function loadBalancer(chinaDownload, USDownload) {
+  return Promise.race([chinaDownload, USDownload]);
+}
