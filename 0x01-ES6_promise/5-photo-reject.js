@@ -1,1 +1,3 @@
-0x01-ES6_promise
+export default function uploadPhoto(filename) {
+  return Promise.reject(Error(`${filename} cannot be processed`));
+}
