@@ -1,1 +1,3 @@
-0x00-ES6_basic
+export default function returnHowManyArguments(...args) {
+  return args.length;
+}
