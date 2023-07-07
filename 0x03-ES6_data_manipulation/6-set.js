@@ -1,1 +1,3 @@
-0x03. ES6 data manipulation
+export default function setFromArray(arr) {
+  return new Set(arr);
+}
