@@ -1,1 +1,3 @@
-0x03. ES6 data manipulation
+export default function getStudentsByLocation(students, city) {
+  return students.filter((obj) => obj.location === city);
+}
