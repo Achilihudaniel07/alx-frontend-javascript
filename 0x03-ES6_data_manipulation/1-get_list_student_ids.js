@@ -1,1 +1,6 @@
-0x03. ES6 data manipulation
+export default function getListStudentIds(list) {
+  if (Array.isArray(list)) {
+    return list.map((obj) => obj.id);
+  }
+  return [];
+}
