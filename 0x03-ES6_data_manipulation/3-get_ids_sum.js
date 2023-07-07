@@ -1,1 +1,3 @@
-0x03. ES6 data manipulation
+export default function getStudentIdsSum(students) {
+  return students.reduce((acc, c) => acc + c.id, 0);
+}
